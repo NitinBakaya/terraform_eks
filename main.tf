@@ -16,3 +16,6 @@ module "vpc" {
     Environment = "dev"
   }
 }
+module "rds"{
+  source = "./module/rds/aws"
+}
