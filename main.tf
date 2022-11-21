@@ -16,3 +16,6 @@ module "vpc" {
     Environment = "dev"
   }
 }
+module "redshift"{
+	source= "./modules/redshift"
+}
